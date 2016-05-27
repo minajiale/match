@@ -1,0 +1,124 @@
+#head2{
+	height:180px;
+}
+.logo{
+	position: relative;left: -340px;
+}
+.h2_img{
+	width: 150px;height:140px;float: left;
+}
+.h2_p{
+	color: #4ba733;   
+	margin:30px -3px;float: left;
+}
+.h2_pa {
+	font-weight: 900;font-size: 50px; font-family: "汉仪圆叠体","汉仪力量黑","汉仪菱心体","汉仪综艺体","汉仪舒圆黑";
+}
+.h2_pb{
+	padding-left: 35px; font-size:16px;font-family: "fantasy","Lucida Family" ,"Helvetica","Sans-serif Helvetica" ;
+}
+.search{
+	background-color: #009966;width: 470px;height: 50px;position: absolute;
+	right: 20%;top: 80px;
+}
+.txt{
+margin: 5px;height: 35px;width:392px;
+}
+.glass{
+	margin: 5px;float: right;border: none;background: none;font-size: 25px;
+	color: white;cursor: pointer;
+}
+.recommend{
+	margin-left: 60px;
+}
+.recommend a{
+	display: block;float: left; margin: 10px;color: black;font-family: "微软雅黑"；
+	
+}
+
+
+#mian{
+	width: 1188px;margin: 0 auto;height: 790px;
+}
+.contain{
+	border-top: 2px solid #336666;
+}
+.point{
+	height: 48px;
+}
+.point>a{
+	background-color: #4bbfbf; height: 48px;width:236px; display: block;float: left;
+	color: white;font-size: 30px;letter-spacing: 4px;line-height: 48px;
+	margin: 0 auto;text-align: center;
+}
+.sort{
+	padding-left: 300px;margin-bottom: -10px;
+}
+.sort a{
+	display: block;float: left;color: black; padding: 10px;font-size: 14px;
+	font-weight: bold;
+}
+.knowt{
+	margin-left: 970px;letter-spacing: 3px;font-weight: bold;
+	cursor: pointer;
+}
+
+#menu{
+	width: 236px;background-color: #029a96;float: left;height: 740px;
+}
+#uli{
+	padding: 20px;
+}
+#menu a{
+	display: block;background-color: #029a96;color: white;font-size: 20px;
+	vertical-align: middle;width: auto;height: 60px;background-repeat: no-repeat;
+	text-align: center;margin: 0 auto;line-height: 60px;
+}
+#menu a:hover{
+	background-color: #4bbfbf;
+}
+
+
+#center{
+	width:705px;background-color: #4dc1be;margin-left: 235px; position: relative;
+	height: 740px;
+}
+#center img{
+	width: 353px;height: 200px;
+}
+.i2{
+	position: absolute;left: 353px;top:180px;
+}
+.i3{
+	position: absolute;left: 0px;top:360px;
+}
+.i4{
+	position: absolute;left: 353px;top:540px;
+}
+i{
+	color: white;
+}
+#center p{
+	color: white;font-size: 13px;
+}
+.i1w{
+	margin-left: 380px;margin-top: -180px;padding: 10px;
+}
+.i2w{
+	padding: 10px;margin-top: 35px;
+}
+.i3w{
+	margin-left: 380px;margin-top: 50px;padding: 10px;
+}
+
+#knowlg{
+	margin-left: 930px;margin-top: -769px;cursor: pointer;
+}
+.foot{
+	height: 40px;background-color: #4c4c4c;
+}
+.foot p{
+	color: white;line-height: 40px;margin:0 auto;text-align: center;
+}
+
+

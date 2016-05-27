@@ -1,0 +1,112 @@
+*{
+	margin: 0px;padding: 0px; 
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: "Arial","Helvetica","sans-serif";font-size: 15px;
+	background-color: #CCCCCC;
+}
+li{
+	list-style: none;
+}
+
+.head1{
+	height: 120px;width: 100%;
+}
+.logo{
+	margin-left: 31%;
+}
+.logo img{
+	float: left;margin-right: 15px;
+}
+.logo-w{
+	float: left;margin-top: 20px;
+	}
+.logo-w p{
+	color: #4ba733; letter-spacing: 2px;
+}
+.w-l{
+	font-weight:900px;font-size: 40px;
+    font-family: "汉仪圆叠体","汉仪力量黑","汉仪菱心体","汉仪综艺体","汉仪舒圆黑";
+}
+.w-r{
+	text-align: center;
+}
+.word{
+	float: right;font-size: 12px;margin: 10px 30px;color: #4ba733;
+}
+.word a{
+	color: #4ba733;
+}
+.head2{
+	height: 47px;width: 100%;background-color:#4c4c4c;text-align: center;
+}
+.head2 ul{
+	margin-left: 150px;
+}
+.head2 a{
+	display: block;float: left;color: white; padding-right: 40px;
+	font-size: 20px;margin:1 auto;line-height: 47px;color: #d0d0d0;
+	margin: 0px auto;width: 180px;
+}
+.head2 a:hover , .on1{
+	background-color:#393939; color: white;
+}
+
+
+
+#main{
+	position: relative; overflow: hidden;width: 1300px;height: 418px;
+	line-height: 418px; margin:0 auto;
+}
+#picture-list{
+	position: absolute; width: 7800px;height: 418px;z-index: 1;
+}
+#picture-list img{
+	width: 1300px;height: 460px;float: left;
+}
+#button{
+	position: absolute;z-index: 2;height: 10px; width: 300px;bottom: 10px;right: 28%;
+}
+#button span{
+	border-radius: 50%; width:12px; height: 12px;background: #333;display: block;
+	float: left;margin-right: 10px;border: 1px solid white;cursor: pointer;
+}
+#button .on{
+	background-color: orangered;
+}
+
+.arrow{
+	display: none; z-index: 2; position: absolute; width: 50px;height: 40px; background-color:rgba(0,0,0,.3);color: #fff;
+	top: 50%;font-size: 50px;text-align: center;line-height: 40px;
+}
+.arrow:hover{
+	background-color:rgba(0,0,0,.7);
+}
+#main:hover .arrow{
+	display: block;
+}
+
+#prev{
+	right: 0px;
+}
+
+
+
+
+.menu p{
+	line-height: 25px;margin:10px auto;font-weight: 20;
+	text-align: center;color: #4ba733;font-size: 20px;font-family: "微软雅黑";
+}
+.menu img{
+	margin: 0 auto;display: block;
+}
+.menu ul{
+	margin-left: 300px;
+}
+.menu a{
+	display: block;float: left;color:#4ba733;font-size: 16px;font-family: "微软雅黑";
+	margin: 10px;
+}

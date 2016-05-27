@@ -1,0 +1,66 @@
+*{
+		margin: 0px;padding: 0px;
+	}
+	body{
+		    font-family: "Arial","Helvetica","sans-serif";font-size: 15px;
+	}
+	a{
+		text-decoration: none;
+	}
+	li{
+		list-style: none;
+	}
+	.head1{
+		height:42px;width: 100%;background-color: #4c4c4c;position: relative;padding-left: 50px;
+		border-bottom: 2px solid #85c155;
+	}
+	/*.head1 li{
+		height: 40px;
+	} 为什么顿时就竖直排列了呢*/
+	.head1 a{
+		 color: #d9d9d9;display: block;float: left;   
+		  font-family: Arial,Helvetica,sans-serif;font-size: 12px;padding: 8px 0px 30px 20px;
+		  text-align: center;
+	}
+	.head1 form{
+		width: 225px; position: absolute ; background-color: white;
+		 /*margin: 2px auto;设置float才这样居中*/ top: 5px;right: 17%;
+	}
+	.head1 form .txt{
+		outline:none;width: 190px;height: 27px;float: left;border: none;
+	}
+	.head1 .glass{
+		border: none;float: left;
+		width: 25px;height: 29px;background-color: white;margin-right:-11px;
+		cursor: pointer;background-image: url(../img/glass.png);background-repeat: no-repeat;
+	}
+	.head1 .glass:hover{
+		background-image:url(../img/glass1.png);
+	}
+	.ul-right{
+		margin-right: 70px;
+	}
+	 .ul-right a{
+		height:40px;float:right; margin-right: 4px;
+	}
+	.right_i{
+		margin-left: -20px;position: relative;top: -5px;
+	}
+
+
+	.head2{
+		height: 84px;border-bottom: 1px solid #ededed;
+	}
+	.head2 img{
+		margin-left: -250px; float: left;
+	}
+	.head2 a{
+		display: block;float: left;margin: 15px;height: 34px;line-height: 34px;
+		text-align: center; color: #4ba733;font-family: "Microsoft YaHei","WenQuanYi Micro Hei",SimHei,tahoma,sans-serif;
+		font-size: 16px;
+
+	}
+	.head2 a:hover{
+		background-color: #85c155;color: white;
+	}
+	

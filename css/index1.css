@@ -1,0 +1,51 @@
+*{
+	margin: 0;padding: 0;
+}
+#back{
+	position: relative;background-image: url("../img/index1.jpg");
+	height: 640px;
+}
+#back a{
+	height: 200px;width: 250px;text-decoration: none;display: block;
+	position: absolute; font-size: 20px; font-family: ""
+}
+#back a p{
+	text-align: center;width: 250px;
+}
+#back a:hover{
+	font-weight: bold;font-size: 
+}
+#back a:hover img{
+	width: 300px;height: 250px;
+}
+#back a:nth-child(1){
+	top: 34%;left: 22px;color: #4dc1be;
+}
+#back a:nth-child(2){
+	top: 34%;left: 275px;color: #4dc1be;
+}
+#back a:nth-child(3){
+	top: 34%;left:525px;color: #6ac7f2;
+}
+#back a:nth-child(4){
+	top: 34%;left: 787px;color: #198cb9;
+}
+
+
+.login{
+	position: fixed;left: 60px;top:10px;
+}
+.register{
+	position: fixed;left: 100px;top:10px;
+}
+.logo a{
+	display: block;margin: 20px;color: #198cb9;text-decoration: none;
+	font-family: "微软雅黑";
+}
+.logo a:hover{
+	font-size: 19px;
+}
+
+.logo img{
+	position: fixed;width: 60px;height: 60px;top:10px;left: 10px;
+}
